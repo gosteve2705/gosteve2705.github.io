@@ -1,3 +1,74 @@
-.title {
-  color: #02ccba;
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+  
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Write your code below */
+.top-section{
+  background-image:url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size:cover;
+  text-align:center;
+  padding-top:180px;
+  padding-bottom:100px;
+ 
+ 
+}
+.top-section h1{
+  color:white;
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+  padding-bottom:10px;
+}
+.top-section p{
+  color:white;
+  opacity:0.7;
+  padding-bottom:3px;
+}
+.btn {
+   color:white;
+  opacity:0.8;
+  display:inline-block;
+   padding-top:12px;
+  padding-bottom:12px;
+  padding-left:24px;
+  padding-right:24px;
+  border-radius:5px;
+}
+.email {
+  background-color:#239b76;
+  margin-top:20px;
+ 
+} 
+.facebook {
+  background-color:#3b5998;
+  
+}
+.twitter {
+  background-color:#55acee;
+  margin-left:10px;
+  
+}
+.btn-wrapper p{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.btn:hover{
+ opacity: 1;
 }
